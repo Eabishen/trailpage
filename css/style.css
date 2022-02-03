@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #0e387a;
+    --primary2: #5d4f72;
+    --white: #fff;
+    --dark: #21252f;
+    --body: #888;
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navbar */
+
+.navbar {
+    box-shadow: var(--box-shadow);
+}
+
+/* navbar */
+
+#trail {
+    background-color: var(--primary);
+    display: flex;
+    padding-top: 120px;
+    justify-content: center;
+    position: relative;
+    color: var(--white);
+}
+
+#trail .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#trail h1 {
+    font-weight: 800;
+    font-size: 55px;
+}
+
+#trail .custrow {
+    width: 100vw;
+}
+
+#trail img {
+    position: relative;
+    width: 50%;
+    z-index: 1000;
+    padding-top: 20px;
+}
+
+/* trailfeatures */
+
+/* #trailfeatures {
+    height: 100vh;
+    padding-top: 150px;
+} */
+
+#trailfeatures .featurerow {
+    padding-top: 80px;
+}
+
+#trailfeatures .title-sm {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+#trailfeatures p {
+    text-align: justify;
+}
+
+.icon-box {
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+/* testimonal */
+/* #testimonials {
+    height: 10vh;
+} */
+
+#testimonials .review p {
+    max-width: 720px;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#testimonials button {
+    transition: all 0.4s ease;
+}
+
+.nav-pills .nav-link {
+    background-color: var(--body);
+    color: var(--white);
+}
+
+.nav-pills .nav-link.active {
+    color: var(--white);
+    background-color: var(--primary);
+    border-radius: 10%;
+}
+.nav-pills .nav-link.active i {
+    font-size: 15px;
+}
+
+/* Footer */
+
+.footer-top {
+    padding-top: 70px;
+    padding-bottom: 10px;
+    background-color: var(--dark);
+}
+
+.footer-top .logo {
+    width: 120px;
+}
+
+.footer-top a {
+    color: var(--body);
+}
+
+.footer-top a:hover {
+    color: var(--white);
+}
+
+.footer-top i {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 8px 4px;
+    color: var(--white);
+    transition: all 0.45s ease;
+}
+
+.footer-top .footlogo:hover {
+    font-size: 24px;
+    color: var(--primary);
+}
+
+.footer-bottom {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.footer-top li {
+    font-size: 16px;
+    text-align: justify;
+    color: var(--body);
+}
+
+/* @media (max-width: 2560px) {
+    #trail {
+        height: 60vh;
+        width: 100vw;
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    #trail .wave {
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+    }
+
+    #trail img {
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #trail {
+        padding-top: 100px;
+        height: 100vh;
+        min-height: 100%;
+    }
+
+    #trail .wave {
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+    }
+    #trailfeatures {
+        padding-top: 20px;
+        height: 60vh;
+    }
+    #testimonials {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 1366px) {
+    #trailfeatures {
+        padding-top: 120px;
+    }
+    #testimonials {
+        padding-top: 200px;
+        height: 70vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    #trailfeatures {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #trail {
+        height: 100vh;
+        padding-top: 20px;
+    }
+
+    #trail img {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 425px) {
+    #trail {
+        height: 100%;
+        padding-top: 20px;
+    }
+
+    #trail img {
+        margin-left: 100px;
+    }
+
+    #trailfeatures {
+        height: 150vh;
+    }
+    #testimonials {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 320px) {
+}
+#trailfeatures {
+    height: 180vh;
+}
+
+@media (max-width: 320px) {
+    #trailfeatures {
+        height: 200vh;
+    }
+    #testimonials {
+        height: 100vh;
+    }
+} */
+
+@media (max-width: 425px) {
+    #trail .wave {
+        display: none;
+    }
+    #trail img {
+        display: none;
+    }
+}
