@@ -32,6 +32,7 @@ a {
     justify-content: center;
     position: relative;
     color: var(--white);
+    overflow: hidden;
 }
 
 #trail .wave {
@@ -57,11 +58,9 @@ a {
 }
 
 /* trailfeatures */
-
-/* #trailfeatures {
-    height: 100vh;
-    padding-top: 150px;
-} */
+#trailfeatures {
+    overflow: hidden;
+} 
 
 #trailfeatures .featurerow {
     padding-top: 80px;
@@ -91,9 +90,9 @@ a {
 }
 
 /* testimonal */
-/* #testimonials {
-    height: 10vh;
-} */
+#testimonials {
+   overflow: hidden;
+}
 
 #testimonials .review p {
     max-width: 720px;
