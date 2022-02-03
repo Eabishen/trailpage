@@ -28,7 +28,7 @@ a {
 #trail {
     background-color: var(--primary);
     display: flex;
-    padding-top: 120px;
+    padding-top: 80px;
     justify-content: center;
     position: relative;
     color: var(--white);
