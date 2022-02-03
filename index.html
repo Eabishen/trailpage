@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <!-- icons -->
+        <link
+            href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Try Now!</title>
+    </head>
+    <body>
+        <!-- navBar -->
+        <nav
+            class="navbar navbar-expand-lg sticky-top py-3 navbar-light bg-white"
+        >
+            <div class="container">
+                <a class="navbar-brand" href="#hero">
+                    <img
+                        style="width: 100%"
+                        src="assets/logo copy.png"
+                        alt=""
+                    />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse text-center"
+                    id="navbarNav"
+                >
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                For Business
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbarDropdown"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Landing</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Features</a
+                                    >
+                                </li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li>
+                                    <a class="dropdown-item" href="#"
+                                        >Pricing</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">For Students </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">For Campuses</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing"
+                                >Sales Enquiry</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navBar ends -->
+
+        <!-- Landing -->
+        <section id="trail">
+            <div class="container">
+                <div class="row align-items-center align-content-center">
+                    <div class="col-md-6">
+                        <div
+                            class="home-text"
+                            data-aos="slide-right"
+                            data-aos-duration="2000"
+                        >
+                            <h1>
+                                Build your own Business website in easy steps
+                            </h1>
+                            <h5>Get back what you want in no time!</h5>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6"
+                        data-aos="fade-in"
+                        data-aos-duration="2000"
+                    >
+                        <h3 class="text-center fw-bold pb-2">
+                            Start your Trail now
+                        </h3>
+                        <form class="row g-3">
+                            <div class="col-12">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="Name"
+                                    placeholder="Name"
+                                />
+                            </div>
+
+                            <div class="col">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="First name"
+                                    aria-label="First name"
+                                />
+                            </div>
+                            <div class="col">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Last name"
+                                    aria-label="Last name"
+                                />
+                            </div>
+                            <div class="col-12">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputAddress"
+                                    placeholder="Name of the Company"
+                                />
+                            </div>
+                            <div class="col-12">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputAddress"
+                                    placeholder="Designation"
+                                />
+                            </div>
+                            <div class="col-12 pb-2">
+                                <button
+                                    type="submit"
+                                    class="btn btn-outline-light"
+                                >
+                                    Pre-book Now
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row custrow">
+                    <div
+                        class="col d-flex align-items-center justify-content-center"
+                    >
+                        <img src="./assets/img-1.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <svg
+                class="wave"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1440 320"
+            >
+                <path
+                    fill="#fff"
+                    fill-opacity="1"
+                    d="M0,224L40,218.7C80,213,160,203,240,202.7C320,203,400,213,480,229.3C560,245,640,267,720,272C800,277,880,267,960,234.7C1040,203,1120,149,1200,122.7C1280,96,1360,96,1400,96L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+                ></path>
+            </svg>
+        </section>
+        <!-- Landing Ends -->
+
+        <!-- Features -->
+        <section id="trailfeatures">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 section-intro">
+                        <h1 class="text-center">Few Easy Steps</h1>
+                    </div>
+                </div>
+                <div class="row g-5 featurerow">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="icon-box">
+                            <i class="bx bxs-user-pin"></i>
+                        </div>
+                        <h4 class="title-sm">Create an Account now</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Sequi inventore sint recusandae cupiditate
+                            distinctio laboriosam reiciendis corrupti voluptate.
+                            Eos, velit?
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="icon-box">
+                            <i class="bx bxs-add-to-queue"></i>
+                        </div>
+                        <h4 class="title-sm">Add upcoming job offers</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Sequi inventore sint recusandae cupiditate
+                            distinctio laboriosam reiciendis corrupti voluptate.
+                            Eos, velit?
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="icon-box">
+                            <i class="bx bx-link"></i>
+                        </div>
+                        <h4 class="title-sm">Integrate your career website</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Sequi inventore sint recusandae cupiditate
+                            distinctio laboriosam reiciendis corrupti voluptate.
+                            Eos, velit?
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="icon-box">
+                            <i class="bx bxs-briefcase"></i>
+                        </div>
+                        <h4 class="title-sm">Start getting applicants</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Sequi inventore sint recusandae cupiditate
+                            distinctio laboriosam reiciendis corrupti voluptate.
+                            Eos, velit?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features -->
+
+        <!-- testominals -->
+        <section id="testimonials" class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul
+                            class="nav nav-pills mb-3 justify-content-center"
+                            id="pills-tab"
+                            role="tablist"
+                        >
+                            <li class="nav-item pe-2" role="presentation">
+                                <button
+                                    class="nav-link active"
+                                    id="pills-home-tab"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#pills-home"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="pills-home"
+                                    aria-selected="true"
+                                >
+                                    <i class="bx bx-chevron-left"></i>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button
+                                    class="nav-link"
+                                    id="pills-profile-tab"
+                                    data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="pills-profile"
+                                    aria-selected="false"
+                                >
+                                    <i class="bx bx-chevron-right"></i>
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div
+                                class="tab-pane fade show active"
+                                id="pills-home"
+                                role="tabpanel"
+                                aria-labelledby="pills-home-tab"
+                            >
+                                <div class="review">
+                                    <p class="lead">
+                                        "Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Sed, maxime! Dolorem
+                                        quas sunt quam temporibus"
+                                    </p>
+                                    <h4>John Snow</h4>
+                                </div>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="pills-profile"
+                                role="tabpanel"
+                                aria-labelledby="pills-profile-tab"
+                            >
+                                <div class="review">
+                                    <p class="lead">
+                                        "Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Sed, maxime! Dolorem
+                                        quas sunt quam temporibus"
+                                    </p>
+                                    <h4>Chole Decker</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testominals Ends -->
+
+        <!-- Footer -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-md-3">
+                        <img class="logo" src="assets/logo copy.png" alt="" />
+                        <div>
+                            <a
+                                href="https://twitter.com/makosinfotech"
+                                target="_blank"
+                                ><i class="footlogo bx bxl-twitter"></i
+                            ></a>
+                            <a
+                                href="https://www.linkedin.com/company/makosinfotech/"
+                                target="_blank"
+                                ><i class="footlogo bx bxl-linkedin"></i
+                            ></a>
+                            <a
+                                href="https://www.facebook.com/makosinfotech"
+                                target="_blank"
+                                ><i class="footlogo bx bxl-facebook"></i
+                            ></a>
+                            <a
+                                href="https://www.instagram.com/makosinfotech/"
+                                target="_blank"
+                                ><i class="footlogo bx bxl-instagram-alt"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="text-white">Sitemap</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    href="https://www.makosinfotech.com/who-we-our.html"
+                                    >Who we are</a
+                                >
+                            </li>
+                            <li><a href="#">Invest with us</a></li>
+                            <li><a href="#">Career with us</a></li>
+                            <li><a href="#">Our Goals</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="text-white">More</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Privacy & Policy</a></li>
+                            <li><a href="#">Board of Members</a></li>
+                            <li><a href="#">Team Leadership</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="text-white">Contact us</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                Amara Sri, Situated at Old No.313, New No.455,
+                                Block No.75, 7th Floor Anna Salai, Teynampet,
+                                Chennai - 600018 Tamil Nadu
+                            </li>
+                            <li>info@jobaskit.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center pb-2">
+            <div class="container" style="pointer-events: none">
+                MAKOS INFOTECH © CopyRig​ht 2021.All Rights Reserved
+            </div>
+        </div>
+        <!-- Footer Ends -->
+
+        <!-- JavaScript Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
