@@ -18,12 +18,25 @@ a {
 }
 
 /* navbar */
+#logo .headerlogo {
+    margin: 5px auto;
+}
 
 .navbar {
     box-shadow: var(--box-shadow);
 }
 .navbar-brand {
     margin: 0 auto;
+}
+
+#logo {
+    text-align: center;
+    background-color: #0e387a;
+}
+
+#logo img {
+    margin: 20px 10px 0;
+    transform: scale(0.7);
 }
 
 /* navbar */
