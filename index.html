@@ -11,33 +11,47 @@
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
             crossorigin="anonymous"
         />
-        
+
         <!-- Facebook Pixel Code -->
 
         <script>
-
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window,document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '250931127025868');
-            fbq('track', 'PageView');
-
+            !(function (f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function () {
+                    n.callMethod
+                        ? n.callMethod.apply(n, arguments)
+                        : n.queue.push(arguments);
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = "2.0";
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s);
+            })(
+                window,
+                document,
+                "script",
+                "https://connect.facebook.net/en_US/fbevents.js"
+            );
+            fbq("init", "250931127025868");
+            fbq("track", "PageView");
         </script>
 
         <noscript>
+            <img
+                height="1"
+                width="1"
+                src="https://www.facebook.com/tr?id=250931127025868&ev=PageView&noscript=1"
+            />
+        </noscript>
 
-            <img height="1" width="1"
-            src="https://www.facebook.com/tr?id=250931127025868&ev=PageView&noscript=1"/>
+        <!-- End Facebook Pixel Code -->
 
-           </noscript>
-
-<!-- End Facebook Pixel Code -->
-        
         <!-- icons -->
         <link
             href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
@@ -52,7 +66,7 @@
         <nav
             class="navbar navbar-expand-lg sticky-top py-3 navbar-light bg-white"
         >
-            <div class="container">
+            <div class="container d-flex">
                 <a class="navbar-brand" href="#hero">
                     <img
                         style="width: 100%"
@@ -60,7 +74,7 @@
                         alt=""
                     />
                 </a>
-                <button
+                <!-- <button
                     class="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
@@ -133,7 +147,7 @@
                             <a class="nav-link" href="#">Events</a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </nav>
         <!-- navBar ends -->
@@ -151,9 +165,22 @@
                             <h1>
                                 Build your own Business website in easy steps
                             </h1>
-                            <h5>Get what you want in no time!</h5>
+                            <h5 class="typing">hi</h5>
                         </div>
                     </div>
+                    <!-- <ul class="dynamic">
+                        <li>
+                            <span
+                                >Get what you want in no time!</span
+                            >
+                        </li>
+                        <li>
+                            <span>See what we are best at!</span>
+                        </li>
+                        <li>
+                            <span>We got you Covered!</span>
+                        </li>
+                    </ul> -->
                     <div
                         class="col-md-6 p-5"
                         data-aos="fade-in"
@@ -162,57 +189,16 @@
                         <h3 class="text-center fw-bold pb-2">
                             Start your Trail now
                         </h3>
-                        <form class="row g-3">
-                            <div class="col-12">
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="Name"
-                                    placeholder="Name"
-                                />
-                            </div>
 
-                            <div class="col">
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    placeholder="First name"
-                                    aria-label="First name"
-                                />
-                            </div>
-                            <div class="col">
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    placeholder="Last name"
-                                    aria-label="Last name"
-                                />
-                            </div>
-                            <div class="col-12">
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="inputAddress"
-                                    placeholder="Name of the Company"
-                                />
-                            </div>
-                            <div class="col-12">
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="inputAddress"
-                                    placeholder="Designation"
-                                />
-                            </div>
-                            <div class="col-12 pb-2">
-                                <button
-                                    type="submit"
-                                    class="btn btn-outline-light"
-                                >
-                                    Pre-book Now
-                                </button>
-                            </div>
-                        </form>
+                        <div class="col-12 d-flex">
+                            <a
+                                href="#registerform"
+                                type="submit"
+                                class="home-btn btn btn-outline-light"
+                            >
+                                Pre-book Now
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="row custrow">
@@ -300,7 +286,7 @@
         <!-- Features -->
 
         <!-- testominals -->
-        <section id="testimonials" class="text-center p-5">
+        <section id="testimonials" class="text-center pt-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -376,8 +362,84 @@
         </section>
         <!-- testominals Ends -->
 
+        <!-- Form -->
+        <svg
+            class="wave"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+        >
+            <path
+                fill="#0e387a"
+                fill-opacity="1"
+                d="M0,224L40,218.7C80,213,160,203,240,202.7C320,203,400,213,480,229.3C560,245,640,267,720,272C800,277,880,267,960,234.7C1040,203,1120,149,1200,122.7C1280,96,1360,96,1400,96L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+            ></path>
+        </svg>
+        <section id="registerform">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-lg-12 d-flex">
+                        <form class="row g-3 card-effect custform">
+                            <div class="col-12">
+                                <h2>Pre-book and start your trail now!</h2>
+                            </div>
+                            <div class="col-12">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="Name"
+                                    placeholder="Name"
+                                />
+                            </div>
+
+                            <div class="col">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Email ID"
+                                    aria-label="Email ID"
+                                />
+                            </div>
+                            <div class="col">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Phone Number"
+                                    aria-label="Phone Number"
+                                />
+                            </div>
+                            <div class="col-12">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputAddress"
+                                    placeholder="Name of the Company"
+                                />
+                            </div>
+                            <div class="col-12">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputAddress"
+                                    placeholder="Designation"
+                                />
+                            </div>
+                            <div class="col-12 d-flex">
+                                <button
+                                    type="submit"
+                                    class="home-btn btn btn-outline-light"
+                                >
+                                    Pre-book Now
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Form ends -->
+
         <!-- Footer -->
-        <div class="footer-top">
+        <!-- <div class="footer-top">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-md-3">
@@ -447,9 +509,10 @@
             <div class="container" style="pointer-events: none">
                 MAKOS INFOTECH © CopyRig​ht 2021.All Rights Reserved
             </div>
-        </div>
+        </div> -->
         <!-- Footer Ends -->
 
+        <script src="js/main.js"></script>
         <!-- JavaScript Bundle with Popper -->
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
