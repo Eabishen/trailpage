@@ -133,6 +133,7 @@ a {
 /* testimonal */
 #testimonials {
     overflow: hidden;
+    margin-bottom: -8%;
 }
 
 #testimonials .review p {
