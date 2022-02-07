@@ -118,6 +118,7 @@ a {
     width: 80%;
     z-index: 1000;
     padding-top: 10px;
+    text-align: center;
 }
 
 /* trailfeatures */
@@ -334,16 +335,6 @@ a {
     }
 }
 
-@media (max-width: 768px) {
-    #trail {
-        height: 100vh;
-        padding-top: 20px;
-    }
-
-    #trail img {
-        margin-left: 200px;
-    }
-}
 
 @media (max-width: 425px) {
     #trail {
