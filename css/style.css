@@ -259,15 +259,22 @@ a {
     color: var(--primary);
 }
 
-.footer-bottom {
-    background-color: var(--dark);
-    color: var(--white);
-}
-
 .footer-top li {
     font-size: 16px;
     text-align: justify;
     color: var(--body);
+}
+
+#regfooter .footer-bottom {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+#regfooter .footer-bottom .container a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(216, 216, 216);
 }
 
 /* @media (max-width: 2560px) {
