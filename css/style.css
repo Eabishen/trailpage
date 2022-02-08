@@ -11,6 +11,7 @@
     --dark: #21252f;
     --body: #888;
     --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+    --smaller: 0.75;
 }
 
 a {
@@ -115,11 +116,69 @@ a {
 
 #trail img {
     position: relative;
-    width: 80%;
     z-index: 1000;
     padding-top: 10px;
+}
+
+/* reg counter */
+
+#regcounter {
+    padding: 50px 0px 0px;
+    background-color: var(--white);
+}
+
+#regcounter .regcont {
+    color: var(--primary);
+    margin: 0 auto;
     text-align: center;
-    margin: 1px auto;
+}
+
+#regcounter h1 {
+    font-weight: 500;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+#regcounter li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+#regcounter li span {
+    display: block;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+#regcounter .emoji {
+    display: none;
+    padding: 1rem;
+}
+
+#regcounter .emoji span {
+    font-size: 4rem;
+    padding: 0 0.5rem;
+}
+
+@media all and (max-width: 768px) {
+    #regcounter {
+        padding: 10px 0;
+    }
+
+    #regcounter h1 {
+        font-size: calc(1.5rem * var(--smaller));
+    }
+
+    #regcounter li {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+
+    #regcounter li span {
+        font-size: calc(3.375rem * var(--smaller));
+    }
 }
 
 /* trailfeatures */
@@ -362,6 +421,20 @@ a {
 #trailfeatures {
     height: 180vh;
 } */
+
+@media (max-width: 2560px) {
+    #trail img {
+        width: 80%;
+        margin-left: -1000px;
+    }
+}
+
+@media (max-width: 1440px) {
+    #trail img {
+        text-align: center;
+        margin: 1px auto;
+    }
+}
 
 @media (max-width: 425px) {
     #trail h1 {
