@@ -190,6 +190,12 @@ a {
     padding-top: 80px;
 }
 
+#trailfeatures h1 {
+    color: var(--primary);
+    font-size: 40px;
+    font-weight: 500;
+}
+
 #trailfeatures .title-sm {
     font-size: 22px;
     font-weight: 700;
