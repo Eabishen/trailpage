@@ -1,7 +1,7 @@
 const texts = [
-    "Get what you want in no time!          ",
-    "See what we are best at!          ",
-    "We got you Covered!          ",
+    "Looking for a benchmark response!          ",
+    "we bring you the best!          ",
+    "Powering your employee list!          ",
 ];
 
 let count = 0;
